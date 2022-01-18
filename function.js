@@ -15,3 +15,12 @@ const getPositiveNumber = (arr) => {
     }
 }
 
+const getSymbol = (lang) => {
+    let res = []; 
+     for (let i = 0; i < lang.length; i++) {      
+         if (lang[i].length > 3) {
+             res += lang[i] + ' ';
+         }
+     }
+   return res;
+ } 
