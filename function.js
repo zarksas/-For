@@ -24,3 +24,14 @@ const getSymbol = (lang) => {
      }
    return res;
  } 
+
+ const getNames = (names) => {
+     let resNames = [];
+     for (let i = 0; i < names.length; i++) {
+    
+        if (names[i][0] == 'a'.toUpperCase() || names[i][0] == 'u'.toUpperCase()) {
+            resNames.push(names[i])
+        }
+    }
+    return resNames
+ }
