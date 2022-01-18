@@ -6,4 +6,12 @@ const getSum = (arr) => {
     return res
 }
 
-getSum([12, 24, 5]);
+const getPositiveNumber = (arr) => {
+    let sumP = 0;
+    for (let i = 0; i < arr.length; i++) {
+        if (arr[i] > 0) {
+            sumP += arr[i];
+        }
+    }
+}
+
